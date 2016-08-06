@@ -11,7 +11,7 @@
   "version": "0.9.0",
   "dependencies": {
     "Casper": "TryGhost/Casper#1.3.1",
-    "Mnml": "git://github.com/curiositry/mnml-ghost-theme.git#7042da59bb68fdfeb4156c0b95a8db4a63e488fe",
+    "Mnml": "peterdemartini/mnml-ghost-theme#v4.0.0",
     "ghost": "~0.9.0",
     "ghost-s3-storage": "~0.2.2",
     "ncp": "^2.0.0",
