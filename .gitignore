@@ -3,3 +3,5 @@ node_modules/
 
 content/themes/casper/
 content/themes/mnml
+content/storage/ghost-s3
+content/data/*.db

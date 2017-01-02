@@ -13,7 +13,7 @@
     "Casper": "TryGhost/Casper#1.3.1",
     "Mnml": "peterdemartini/mnml-ghost-theme#v4.0.1",
     "ghost": "^0.11.3",
-    "ghost-s3-storage": "~0.2.2",
+    "ghost-s3-storage-adapter": "^3.0.4",
     "ncp": "^2.0.0",
     "pg": "^6.0.3"
   },
@@ -23,7 +23,8 @@
   "scripts": {
     "move-casper": "ncp node_modules/Casper content/themes/casper",
     "move-mnml": "ncp node_modules/Mnml content/themes/mnml",
-    "postinstall": "npm run move-casper && npm run move-mnml",
+    "move-storage": "ncp node_modules/ghost-s3-storage-adapter content/storage/ghost-s3",
+    "postinstall": "npm run move-casper && npm run move-mnml && npm run move-storage",
     "start": "node server.js"
   }
 }
