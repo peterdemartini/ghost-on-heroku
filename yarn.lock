@@ -6,9 +6,9 @@ JSONSelect@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/JSONSelect/-/JSONSelect-0.4.0.tgz#a08edcc67eb3fcbe99ed630855344a0cf282bb8d"
 
-Mnml@peterdemartini/mnml-ghost-theme#v4.0.1:
-  version "4.0.1"
-  resolved "https://codeload.github.com/peterdemartini/mnml-ghost-theme/tar.gz/e074ef2a06b95bdc97e1f47e3f2ed0aa76ee181b"
+Mnml@peterdemartini/mnml-ghost-theme#v5.0.0:
+  version "5.0.0"
+  resolved "https://codeload.github.com/peterdemartini/mnml-ghost-theme/tar.gz/f3b4521b5b3655293600011965965cd3e193d04a"
 
 abbrev@1:
   version "1.0.9"
