@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
-  "version": "0.9.0",
+  "version": "0.11.3",
   "dependencies": {
     "Casper": "TryGhost/Casper#1.3.1",
     "Mnml": "peterdemartini/mnml-ghost-theme#v4.0.1",
@@ -18,7 +18,7 @@
     "pg": "^6.0.3"
   },
   "engines": {
-    "node": "^4.2.0"
+    "node": "^6.9.2"
   },
   "scripts": {
     "move-casper": "ncp node_modules/Casper content/themes/casper",
